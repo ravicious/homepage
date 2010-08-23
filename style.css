@@ -1,0 +1,109 @@
+/*
+ * Reset
+ * http://perfectionorvanity.com/reset.html
+ */
+
+a, abbr, acronym, address, b, big, blockquote, body, caption,
+cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset,
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6,
+html, i, iframe, img, ins, kbd, label, legend, li, object,
+ol, p, pre, q, samp, small, span, strike, strong, sub, sup,
+table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+}
+
+a, ins, del {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+caption, th {
+  text-align: left;
+}
+
+q:after, q:before {
+  content: "";
+}
+
+/*
+ * End of reset
+ */
+
+/* http://www.fontsquirrel.com/fonts/TypoSlabserif-Light */
+@font-face {
+  font-family: 'Typo';
+  src: local('☺'), url('TypoSlabserif-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #c71b1b fixed no-repeat url('me.png') top right;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  color: #fffdd8;
+}
+
+a {
+  color: #fffdd8;
+}
+
+a:hover {
+  text-shadow: 0 1px 0 #3d3d3d;
+}
+
+h1, h2, #nav {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 140px;
+  font-size: 150px;
+  font-family: Typo, Georgia, serif;
+  letter-spacing: 10px;
+  cursor: pointer;
+  padding: 0;
+  text-shadow: 0 2px 0 #3d3d3d;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#nav {
+  list-style: none outside none;
+  background-color: #c71b1b;
+  padding-top: 4px;
+  height: 32px;
+  margin: 0;
+}
+
+#nav li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#nav li:first-child {
+  text-decoration: underline;
+}
+
+#nav li span {
+  font-size: xx-small;
+  vertical-align: top;
+}
