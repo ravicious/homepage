@@ -92,7 +92,7 @@ nav ul {
   list-style: none outside none;
   background-color: #c71b1b;
   padding-top: 4px;
-  height: 32px;
+  min-height: 32px;
   margin: 0;
 }
 
